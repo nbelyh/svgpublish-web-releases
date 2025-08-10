@@ -2,7 +2,7 @@
   "id": "c701a3bf-012f-45ac-93e5-1d9d12af8b01",
   "alias": "SvgPublishWebPart",
   "componentType": "WebPart",
-  "version": "1.0.37",
+  "version": "1.0.40",
   "manifestVersion": 2,
   "requiresCustomScript": false,
   "supportsFullBleed": true,
@@ -36,7 +36,7 @@
     "scriptResources": {
       "svgpublishwp": {
         "type": "path",
-        "path": "svgpublishwp_54df6b6cc5aedb9de35d.js"
+        "path": "svgpublishwp_4a7b61771d75f6372f96.js"
       },
       "react": {
         "type": "component",
