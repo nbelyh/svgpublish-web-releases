@@ -1,0 +1,94 @@
+{
+  "id": "c701a3bf-012f-45ac-93e5-1d9d12af8b01",
+  "alias": "SvgPublishWebPart",
+  "componentType": "WebPart",
+  "version": "1.0.37",
+  "manifestVersion": 2,
+  "requiresCustomScript": false,
+  "supportsFullBleed": true,
+  "supportedHosts": [
+    "SharePointWebPart",
+    "SharePointFullPage",
+    "TeamsTab"
+  ],
+  "preconfiguredEntries": [
+    {
+      "groupId": "5c03119e-3074-46fd-976b-c60198311f70",
+      "group": {
+        "default": "Other"
+      },
+      "title": {
+        "default": "SvgPublish"
+      },
+      "description": {
+        "default": "The web part is a specialized widget to display an exported SvgPublish diagram."
+      },
+      "fullPageAppIconImageUrl": "https://unmanagedvisio.com/upload/spfx/svgpublishwp-01.svg",
+      "iconImageUrl": "https://unmanagedvisio.com/upload/spfx/svgpublishwp-01.svg",
+      "properties": {}
+    }
+  ],
+  "loaderConfig": {
+    "internalModuleBaseUrls": [
+      "https://localhost:4321/dist/"
+    ],
+    "entryModuleId": "svgpublishwp",
+    "scriptResources": {
+      "svgpublishwp": {
+        "type": "path",
+        "path": "svgpublishwp_54df6b6cc5aedb9de35d.js"
+      },
+      "react": {
+        "type": "component",
+        "id": "0d910c1c-13b9-4e1c-9aa4-b008c5e42d7d",
+        "version": "17.0.1"
+      },
+      "react-dom": {
+        "type": "component",
+        "id": "aa0a46ec-1505-43cd-a44a-93f3a5aa460a",
+        "version": "17.0.1"
+      },
+      "@microsoft/sp-core-library": {
+        "type": "component",
+        "id": "7263c7d0-1d6a-45ec-8d85-d4d1d234171b",
+        "version": "1.21.1"
+      },
+      "@microsoft/sp-webpart-base": {
+        "type": "component",
+        "id": "974a7777-0990-4136-8fa6-95d80114c2e0",
+        "version": "1.21.1"
+      },
+      "WebPartStrings": {
+        "type": "localizedPath",
+        "paths": {
+          "de-DE": "WebPartStrings_de-de_322bd69b98eb073d3484e97ca46e04d2.js",
+          "en-US": "WebPartStrings_en-us_3c4a0831e3d13a9acddc8d55001c0850.js"
+        },
+        "defaultPath": "WebPartStrings_en-us_3c4a0831e3d13a9acddc8d55001c0850.js"
+      },
+      "ControlStrings": {
+        "type": "localizedPath",
+        "paths": {
+          "en-US": "ControlStrings_en-us_abbb501f6aba0babbd90a8c579bd419c.js",
+          "sv-SE": "ControlStrings_sv-se_a5b3098ebd1f1863cd0217aa44745502.js"
+        },
+        "defaultPath": "ControlStrings_en-us_abbb501f6aba0babbd90a8c579bd419c.js"
+      },
+      "@microsoft/sp-http": {
+        "type": "component",
+        "id": "c07208f0-ea3b-4c1a-9965-ac1b825211a6",
+        "version": "1.21.1"
+      },
+      "@microsoft/sp-lodash-subset": {
+        "type": "component",
+        "id": "73e1dc6c-8441-42cc-ad47-4bd3659f8a3a",
+        "version": "1.21.1"
+      },
+      "@microsoft/sp-property-pane": {
+        "type": "component",
+        "id": "f9e737b7-f0df-4597-ba8c-3060f82380db",
+        "version": "1.21.1"
+      }
+    }
+  }
+}
