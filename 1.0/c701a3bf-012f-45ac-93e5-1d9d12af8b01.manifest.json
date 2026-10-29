@@ -2,7 +2,7 @@
   "id": "c701a3bf-012f-45ac-93e5-1d9d12af8b01",
   "alias": "SvgPublishWebPart",
   "componentType": "WebPart",
-  "version": "1.0.64",
+  "version": "1.0.66",
   "manifestVersion": 2,
   "requiresCustomScript": false,
   "supportsFullBleed": true,
@@ -36,7 +36,7 @@
     "scriptResources": {
       "svgpublishwp": {
         "type": "path",
-        "path": "svgpublishwp_bcf0e8be6c4aaea36736.js"
+        "path": "svgpublishwp_10cd68af43c1e8342d21.js"
       },
       "react": {
         "type": "component",
@@ -69,10 +69,10 @@
       "ControlStrings": {
         "type": "localizedPath",
         "paths": {
-          "en-US": "ControlStrings_en-us_abbb501f6aba0babbd90a8c579bd419c.js",
-          "sv-SE": "ControlStrings_sv-se_a5b3098ebd1f1863cd0217aa44745502.js"
+          "en-US": "ControlStrings_en-us_8beec3d351bb5323276f5d868e24502e.js",
+          "sv-SE": "ControlStrings_sv-se_db8554b40d52ecc0e12434832f765246.js"
         },
-        "defaultPath": "ControlStrings_en-us_abbb501f6aba0babbd90a8c579bd419c.js"
+        "defaultPath": "ControlStrings_en-us_8beec3d351bb5323276f5d868e24502e.js"
       },
       "@microsoft/sp-http": {
         "type": "component",
